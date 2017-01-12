@@ -2,7 +2,7 @@
 
 > welcome to my repo
 
-## Ian Pollock
+## how to use git
 
 ### getting files from GitHub
 
