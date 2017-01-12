@@ -11,10 +11,10 @@
 2nd and subsequent times  - git pull - 
 
 if you have changes locally and remotely 
-1. git add. 
-2. git commit -m "message" 
-3. git pull 
-4. git push
+  1. git add. 
+  2. git commit -m "message" 
+  3. git pull 
+  4. git push
 
 ### putting files back on github
 
