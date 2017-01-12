@@ -8,7 +8,9 @@
 
 1st time git clone into empty folder
 
-2nd and subsequent times  - git pull - 
+2nd and subsequent times  - git pull
+
+  _or_
 
 if you have changes locally and remotely 
   1. git add. 
