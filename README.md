@@ -17,6 +17,7 @@ git add .
 git commit -m "message here"
 
 git push http://USER@github.com/USER/REPO.git
-git push https://instructian@github.com/instructian/art3870-wi17.git
+
+_git push https://instructian@github.com/instructian/art3870-wi17.git_
 
  
