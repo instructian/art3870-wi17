@@ -8,7 +8,7 @@
 
 1st time git clone into empty folder
 
-2nd and subsequent times  - git fetch and git merge into repository folder
+2nd and subsequent times  - git fetch and git merge into repository folder - approve changes if desired.
 
 ### putting files back on github
 
