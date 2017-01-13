@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="wrapper">
-<header class="row">
+<header class="row align-justify">
   <h1>Logo</h1>
   <nav>
     <a href="index.html"> home </a>
@@ -17,6 +17,51 @@
     <a href="about.html"> about me </a>
   </nav>
 </header>
+<section class="row">
+<figure class="columns small-12">
+
+
+<img data-interchange="
+[images/header1-sm.png, small],
+[images/header1-med.png, medium],
+[images/header1-lg.png, large]
+">
+</figure>
+</section>
+<section>
+<span id="greeting">hello!</span>
+
+<script language="JavaScript">
+var myDate = new Date();
+
+/* hour is before noon */
+if ( myDate.getHours() < 12 )
+{
+    document.getElementById('greeting').innerHTML = "Good Morning!";
+}
+else  /* Hour is from noon to 5pm (actually to 5:59 pm) */
+if ( myDate.getHours() >= 12 && myDate.getHours() <= 17 )
+{
+    document.getElementById('greeting').innerHTML = "Good Afternoon!";
+}
+else  /* the hour is after 5pm, so it is between 6pm and midnight */
+if ( myDate.getHours() > 17 && myDate.getHours() <= 24 )
+{
+   document.getElementById('greeting').innerHTML = "Good Evening!";
+}
+else  /* the hour is not between 0 and 24, so something is wrong */
+{
+    document.getElementById('greeting').innerHTML = "I'm not sure what time it is!";
+}
+
+/* remove the following in your live script. It is for testing */
+document.write("<br /><br /> The hour is: ")
+document.write( myDate.getHours() );
+
+</script>
+
+<p>This comes is after all the script has executed</p>
+</section>
 
 <footer class="row">
 <h6>copyright 2017 all rights reserved</h6>
