@@ -20,7 +20,7 @@ if you have changes locally and remotely
 
 ### putting files back on github
 
-  1. git add .
+  1. git add &nbsp; .
   2. git commit -m "message here"
   3. git push http://USER@github.com/USER/REPO.git 
   _git push https://instructian@github.com/instructian/art3870-wi17.git_
